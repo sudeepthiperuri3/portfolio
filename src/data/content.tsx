@@ -6,8 +6,10 @@ export const projects: Project[] = [
     title: 'User Management Dashboard',
     description:
       'A futuristic admin dashboard with comprehensive CRUD operations, real-time search with debouncing, smart filters, sortable tables, and pagination. Features glassmorphism design, smooth animations, and a custom MUI dark theme with neon accents.',
+    image: '/user-management.png',
     tags: ['React', 'TypeScript', 'Material-UI', 'Vite'],
     githubUrl: 'https://github.com/sudeepthiperuri3/user-management-app',
+    liveUrl: 'https://user-management-app-xi-seven.vercel.app',
     featured: true,
   },
   {
@@ -15,8 +17,10 @@ export const projects: Project[] = [
     title: 'ShopSphere E-Commerce',
     description:
       'A rich, responsive e-commerce application with product listing, category filters, price range slider, debounced search, shopping cart with localStorage persistence, and multi-step checkout. Built with real API integration from Fake Store API.',
+    image: '/shop-sphere.png',
     tags: ['React', 'TypeScript', 'Material-UI', 'Axios'],
     githubUrl: 'https://github.com/sudeepthiperuri3/shop-sphere',
+    liveUrl: 'https://shop-sphere-beige.vercel.app/',
     featured: true,
   },
 ];
